@@ -1,0 +1,44 @@
+{
+  "packages": [
+    {
+      "name": "mytiny",
+      "maintainer": "Frank Beentjes",
+      "websiteURL": "https://github.com/fbeen/mytiny",
+      "email": "",
+      "help": {
+        "online": ""
+      },
+      "platforms": [
+        {
+          "name": "mytiny",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "attiny",
+          "help": {
+            "online": ""
+          },
+          "url": "https://github.com/fbeen/mytiny/archive/mytiny.zip",
+          "archiveFileName": "mytiny.zip",
+          "checksum": "SHA-256:9240dbb8504d4c5076280acb50b0833c454098f3eed8e424313b75ef910b40c1",
+          "size": "3581",
+          "boards": [
+             {"name": "mytiny84"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
