@@ -13,7 +13,7 @@
           "name": "mytiny",
           "architecture": "avr",
           "version": "1.0.0",
-          "category": "attiny",
+          "category": "Contributed",
           "help": {
             "online": ""
           },
@@ -22,7 +22,7 @@
           "checksum": "SHA-256:9240dbb8504d4c5076280acb50b0833c454098f3eed8e424313b75ef910b40c1",
           "size": "3581",
           "boards": [
-             {"name": "mytiny84"}
+             {"name": "mytiny"}
           ],
           "toolsDependencies": [
             {
